@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vmr</title>
+    <link rel="stylesheet" href="./css_cntt/style.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="logo_caixa">
+
+            <h1>
+                <img src="img/logo.png" 
+                    class="logo">
+            </h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container-1">
+        <form class="formulario" method="post">
+            <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+        <div class="container-2"></div>
+    </div>
+
+    
+
+    <div class="principal">
+        <div class="container-3">
+            <h4>Agende pelo nosso whatsapp!</h4>
+            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=55041999999"><img src="https://i.imgur.com/ryESuZ5.png" 
+                    style="height:64px; bottom: 25px; right: 25px; z-index:99999; display: flex; flex-direction: column; margin-top: -2%; margin-left: 43%;"
+                    data-selector="img">
+            </a>
+        </div>
+        <div class="container-4">
+            <h4>@VMR</h4>
+            <a href="https://www.instagram.com/"><img src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955024.png?token=exp=1661008223~hmac=e4d80dcf9095b17c5c3343a71118ad77"
+                    style="height:64px; bottom: 25px; right: 25px; z-index:99999; display: flex; flex-direction: column; margin-top: -2%; margin-left: 44%;;"
+                    data-selector="img">
+            </a>
+        </div>
+        <div class="container-5">
+            <h4>Facebook</h4>
+            <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" 
+                     style="height:64px;  bottom: 25px; right: 25px; z-index:99999; display: flex; flex-direction: column; margin-top: -2%; margin-left: 44%;"
+                     data-selector="img">
+            </a>
+        </div>
+    </div>
+    <div class="container-7">
+        <p><br>Endereço: R. Santo André, 680 - Boa Vista, São Caetano do Sul - SP, 09572-000</p>
+    </div>
+    <div class="map-responsive">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8925367228817!2d-46.560431185381816!3d-23.644019270534283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cec46ebe475%3A0x8d2c14858d37a05e!2sEscola%20Senai%20Armando%20de%20Arruda%20Pereira!5e0!3m2!1spt-BR!2sbr!4v1660350192840!5m2!1spt-BR!2sbr"
+            width="300" height="200" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+
+    </div>
+
+</body>

@@ -1,0 +1,157 @@
+
+html,body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #0d274d;
+}
+header {
+    margin-top: -0.6%;
+    margin-left: -0.5%;
+    background-color: #fff;
+    height: 46px;
+}
+
+
+nav {
+    position: absolute;
+    top: -0.1%;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    right: 10px;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0d274d;;
+
+    font-weight: bold;
+    font-size: 17.5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: steelblue;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo_caixa {
+    margin-top: -0.3%;
+    position: absolute;
+             
+}
+
+.logo {
+    margin-top: -60%;  
+    width: 120%;
+
+}
+
+.aboutus{
+    margin-top: 0.4%;
+    margin-left: -0.5%;
+    margin-bottom: -0.7%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+}
+
+.aboutus p{
+    text-align: center;
+    width: 60%;
+}
+
+.aboutus h1{
+    align-items: center;
+    color: #0d274d;   
+    background-color: #fff;
+    width: 12%;
+    display: inline-block;
+}
+.aboutimg{
+    width: 25%;
+}
+.containerPrimary{
+    margin-left: -0.5%;
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+    background-color: #0d274d;
+}
+
+.container1{
+    padding: 0%;
+    margin-top: 0px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d274d;
+    width: 40%;    
+    height: 100%; 
+    border-radius: 1.5%;
+           
+}
+
+.container1 h1{
+
+    width: 80%;
+    color: #fff;   
+    text-align: center; 
+}
+
+.container1 p{
+    width: 80%;
+    text-align: center;    
+    color: #fff;    
+}
+
+.container2{
+    margin-right: -1.1%;
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+          
+    background-image: url(../img/quemSomos.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5%;
+    
+}
+
+.container3{
+    margin-right: -1.1%;
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+    background-image: url(../img/cont04.jpg); 
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5%;
+    
+}
+
+.container4{
+    margin-right: -1.1%;
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+    background-image: url(../img/cont03.jpg); 
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5%;    
+}
